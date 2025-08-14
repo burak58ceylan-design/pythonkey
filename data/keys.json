@@ -1,0 +1,14 @@
+[
+  {
+    "id": "460ecdc3-b7e2-4362-a990-a07117ccd557",
+    "keyName": "DENEME",
+    "key": "e7383fd1-1504-44a2-9719-71f488cc71e4",
+    "keyType": "basic",
+    "maxUsers": 1,
+    "currentUsers": 0,
+    "status": "active",
+    "owner_id": "67c8542e-d3c2-4d3f-ab05-b2fa47b1b465",
+    "created_at": "2025-08-14T17:58:13.871662",
+    "expiresAt": null
+  }
+]

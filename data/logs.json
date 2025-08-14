@@ -1,0 +1,215 @@
+[
+  {
+    "id": "ff3331fa-5c94-4af8-9eb7-edab8c903f1c",
+    "endpoint": "/api/validate/test",
+    "method": "POST",
+    "keyId": null,
+    "hwid": "test-hwid",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "curl/8.14.1",
+    "response": "Key not found",
+    "success": false,
+    "createdAt": "2025-08-14T17:31:45.870180"
+  },
+  {
+    "id": "884076c3-c40b-4db9-b2d6-462613dfee24",
+    "endpoint": "/api/connect",
+    "method": "POST",
+    "keyId": null,
+    "userId": null,
+    "hwid": null,
+    "ipAddress": "127.0.0.1",
+    "userAgent": "curl/8.14.1",
+    "response": "error: internal server error",
+    "success": false,
+    "createdAt": "2025-08-14T17:33:04.929199"
+  },
+  {
+    "id": "b260c5a6-0f82-4132-a1c5-2d82efa86b60",
+    "endpoint": "/api/connect",
+    "method": "POST",
+    "keyId": null,
+    "userId": null,
+    "hwid": null,
+    "ipAddress": "127.0.0.1",
+    "userAgent": "curl/8.14.1",
+    "response": "error: internal server error",
+    "success": false,
+    "createdAt": "2025-08-14T17:33:13.306295"
+  },
+  {
+    "id": "4709e934-1878-4148-8401-af630672d675",
+    "endpoint": "/api/connect",
+    "method": "POST",
+    "keyId": null,
+    "userId": null,
+    "hwid": null,
+    "ipAddress": "127.0.0.1",
+    "userAgent": "curl/8.14.1",
+    "response": "error: internal server error",
+    "success": false,
+    "createdAt": "2025-08-14T17:33:14.920136"
+  },
+  {
+    "id": "89bf4a99-6cd6-4655-9637-ead49c1e96f2",
+    "endpoint": "/api/connect",
+    "method": "POST",
+    "keyId": "80e0a009-c08b-41ef-bda7-dc2682146e0d",
+    "userId": "67c8542e-d3c2-4d3f-ab05-b2fa47b1b465",
+    "hwid": "test-hwid-123",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "curl/8.14.1",
+    "response": "success: access granted",
+    "success": true,
+    "createdAt": "2025-08-14T17:33:36.208560"
+  },
+  {
+    "id": "72dbc5a5-7cdf-47a5-8429-edca72e83848",
+    "endpoint": "/api/validate/4D87F648325662D14FC49D87771F1517",
+    "method": "POST",
+    "keyId": "80e0a009-c08b-41ef-bda7-dc2682146e0d",
+    "userId": "67c8542e-d3c2-4d3f-ab05-b2fa47b1b465",
+    "hwid": "test-hwid-456",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "curl/8.14.1",
+    "response": "Key valid",
+    "success": true,
+    "createdAt": "2025-08-14T17:33:37.986568"
+  },
+  {
+    "id": "4c9135ec-074b-4e94-913c-7beb311dbd58",
+    "endpoint": "/api/connect",
+    "method": "POST",
+    "keyId": "80e0a009-c08b-41ef-bda7-dc2682146e0d",
+    "userId": null,
+    "hwid": "test-hwid-456",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "curl/8.14.1",
+    "response": "error: max users reached",
+    "success": false,
+    "createdAt": "2025-08-14T17:33:45.942076"
+  },
+  {
+    "id": "cf26cf66-ebac-4f1e-9b18-a1bc82bd960f",
+    "endpoint": "/api/disconnect",
+    "method": "POST",
+    "keyId": "80e0a009-c08b-41ef-bda7-dc2682146e0d",
+    "userId": "67c8542e-d3c2-4d3f-ab05-b2fa47b1b465",
+    "hwid": "test-hwid-123",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "curl/8.14.1",
+    "response": "success: disconnected",
+    "success": true,
+    "createdAt": "2025-08-14T17:33:46.900641"
+  },
+  {
+    "id": "d47d3e9b-004e-4959-981f-aeab45745713",
+    "endpoint": "/api/connect",
+    "method": "POST",
+    "keyId": "80e0a009-c08b-41ef-bda7-dc2682146e0d",
+    "userId": "67c8542e-d3c2-4d3f-ab05-b2fa47b1b465",
+    "hwid": "test-hwid-456",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "curl/8.14.1",
+    "response": "success: access granted",
+    "success": true,
+    "createdAt": "2025-08-14T17:33:47.755345"
+  },
+  {
+    "id": "a90af8c3-89a7-43b2-8c1c-af3e40a67869",
+    "endpoint": "/api/connect",
+    "method": "POST",
+    "keyId": "80e0a009-c08b-41ef-bda7-dc2682146e0d",
+    "userId": null,
+    "hwid": "test-hwid-999",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "curl/8.14.1",
+    "response": "error: max users reached",
+    "success": false,
+    "createdAt": "2025-08-14T17:35:22.028425"
+  },
+  {
+    "id": "ab25110b-523b-4de2-a7c9-dc8326667908",
+    "endpoint": "/api/disconnect",
+    "method": "POST",
+    "keyId": "80e0a009-c08b-41ef-bda7-dc2682146e0d",
+    "userId": "67c8542e-d3c2-4d3f-ab05-b2fa47b1b465",
+    "hwid": "test-hwid-456",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "curl/8.14.1",
+    "response": "success: disconnected",
+    "success": true,
+    "createdAt": "2025-08-14T17:35:35.477986"
+  },
+  {
+    "id": "380529cd-ff63-401d-874b-5dda8fcd6cb8",
+    "endpoint": "/api/connect",
+    "method": "POST",
+    "keyId": "80e0a009-c08b-41ef-bda7-dc2682146e0d",
+    "userId": "67c8542e-d3c2-4d3f-ab05-b2fa47b1b465",
+    "hwid": "test-hwid-999",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "curl/8.14.1",
+    "response": "success: access granted",
+    "success": true,
+    "createdAt": "2025-08-14T17:35:36.463643"
+  },
+  {
+    "id": "e4df7443-ee07-49c9-9747-0daa55d73439",
+    "timestamp": "2025-08-14T17:53:32.374752",
+    "action": "user_login",
+    "details": {
+      "email": "burak58ceylan@gmail.com"
+    }
+  },
+  {
+    "id": "031a5cb6-4e9b-43bd-863c-19cd4abb7c39",
+    "timestamp": "2025-08-14T17:57:21.285198",
+    "action": "connect_success",
+    "details": {
+      "keyName": "KingoFREE",
+      "hwid": "test-hwid-999",
+      "game": "PUBG",
+      "token": "65812f59829cd0a41b83940a0439bade"
+    }
+  },
+  {
+    "id": "8f5af99c-c3ea-4db0-ba45-2291080fd274",
+    "timestamp": "2025-08-14T17:57:28.444152",
+    "action": "connect_failed",
+    "details": {
+      "reason": "Max users reached",
+      "keyName": "KingoFREE",
+      "hwid": "test-hwid-123",
+      "maxUsers": 1,
+      "currentUsers": 1
+    }
+  },
+  {
+    "id": "36be5306-e01a-444b-8eae-3316c89e794f",
+    "timestamp": "2025-08-14T17:57:29.392976",
+    "action": "disconnect_success",
+    "details": {
+      "keyName": "KingoFREE",
+      "hwid": "test-hwid-999"
+    }
+  },
+  {
+    "id": "fae0c5f2-250b-4266-b9c6-80bfbf4c91ae",
+    "timestamp": "2025-08-14T17:58:07.363227",
+    "action": "key_deleted",
+    "details": {
+      "keyName": "KingoFREE",
+      "keyId": "80e0a009-c08b-41ef-bda7-dc2682146e0d"
+    }
+  },
+  {
+    "id": "fd608418-016c-430b-831c-d797d173501c",
+    "timestamp": "2025-08-14T17:58:13.872081",
+    "action": "key_created",
+    "details": {
+      "keyName": "DENEME",
+      "keyType": "basic"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "083902ee-3ff4-4353-8e2c-cb523f7423ce",
+    "keyId": "80e0a009-c08b-41ef-bda7-dc2682146e0d",
+    "hwid": "test-hwid-999",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "curl/8.14.1",
+    "lastSeen": "2025-08-14T17:35:36.462893",
+    "createdAt": "2025-08-14T17:35:36.462898"
+  }
+]

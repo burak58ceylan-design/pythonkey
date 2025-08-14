@@ -1,0 +1,12 @@
+[
+  {
+    "id": "67c8542e-d3c2-4d3f-ab05-b2fa47b1b465",
+    "username": "kralfaruk",
+    "email": "burak58ceylan@gmail.com",
+    "password": "$2b$12$OmXOAhkuDIos2IzP4bA1BeJsylmOiQ1o7/qXu73qldb.yafRRt9tm",
+    "role": "user",
+    "isActive": true,
+    "createdAt": "2025-08-14T17:30:43.378437",
+    "updatedAt": "2025-08-14T17:30:43.378449"
+  }
+]
